@@ -58,20 +58,27 @@
 .historia{
     text-align: center;
     margin: 0 auto;
-    width: 800px;
-}
-.historia h1{
-    font-family: "NordicThunder";
-    font-size: 50px;
-    margin-top: 50px;
+    display: flex; /* Torna os elementos filhos em linha */
+    align-items: center; /* Alinha os itens verticalmente ao centro */
+    justify-content: center; /* Alinha os itens horizontalmente ao centro */
+    position: relative; /* Adiciona posição relativa */
+    overflow: hidden; /* Esconde o conteúdo que ultrapassa o limite da caixa */
+    margin: 0;
     padding: 50px;
+    gap: 50px;
+}
+
+.historia img{
+    width: 600px;
     
 }
+
 
 .historia h2{
    
     font-family: "ChaletComprime";
     font-size: 30px;
+    width: 700px;
     
 }
 
