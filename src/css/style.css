@@ -1,0 +1,131 @@
+
+.bg img{
+    display: flex;
+    width: 100%;
+    height: 100%;
+    position: relative;
+}
+
+.cabecalho{
+   
+    height: 80px; /* Da uma altura max para o cabeçalho*/
+    background-color: #000000; /* cor de fundo*/
+    display: flex;  /* Coloca os items um do lado do outro*/
+    justify-content: space-between; /* Espaço entre os filhos*/
+    align-items: center; /* Alinhar os itens no centro */
+    padding: 0 80px  0 80px; /* Espaçamento interno de todos os elementos(Sentido Horario), Cima: 0   Direita: 80   Em baixo: 0  Esquerda: 80 */
+    border: 1px solid black;
+}
+
+
+.cabecalho .logo{
+    
+   display: flex;  /* Coloca os items um do lado do outro*/
+   gap: 15px; /* Espaçamento de 30 px*/
+    
+    
+}
+
+.cabecalho .logo img{
+    width: 150px;
+    
+   
+}
+
+.cabecalho .menu{
+    display: flex; /* Coloca os items um do lado do outro*/
+    gap: 30px; /* Espaçamento de 30 px*/
+    
+}
+
+.cabecalho .menu li a{
+    padding: 30px; /* Espaçamento interno */
+    color: #ffffff; /* Cor da Fonte */
+    font-weight:lighter; /* Fonte forte */
+    font-size: 15px; /* Tamanho da fonte*/
+    font-family: "ChaletLondonNineteenSixty"; /* Fonte estilo*/
+    font-weight: bolder;
+    
+}
+
+.cabecalho .menu li a:hover{
+   
+    transition: all 1s;
+    border-bottom: 1px solid #ffffff ; /* Aplica uma borda branco quanto passar o mause em cima dos itens */
+
+}
+
+.historia{
+    text-align: center;
+    margin: 0 auto;
+    width: 800px;
+}
+.historia h1{
+    font-family: "NordicThunder";
+    font-size: 50px;
+    margin-top: 50px;
+    padding: 50px;
+    
+}
+
+.historia h2{
+   
+    font-family: "ChaletComprime";
+    font-size: 30px;
+    
+}
+
+
+.botoes{
+    background-color: #ffffff;
+    list-style: none; /* Remover marcadores de lista */
+    padding: 50px; /* Remover padding padrão */
+    text-align: center;
+
+    
+}
+
+
+.botoes li:last-child {
+    margin-right: 0; /* Remover a margem da última imagem */
+    
+}
+
+.botoes li {
+    display: inline-block;
+    
+}
+
+.botoes  li img{
+    width: 200px; 
+    height: auto; 
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.botoes .botao-temporadas{
+    background-color: rgba(255, 255, 255, 0.1);
+    border: 0.5px solid #000000;
+    color: #000000;
+    border-radius: 4px;
+    font-family: "ChaletComprime";
+    font-size: 28px;
+    text-align: center;
+    margin-top: 20px;
+    text-transform: uppercase;
+    width: 250px;
+   height: 50px;
+    transition: all .3s ease-in;
+}
+
+.botao-temporadas:hover{
+    background-color: #000000;
+    color: #ffffff;
+}
+
+.botoes h1{
+font-family: "ChaletComprime";
+font-size: 40px;
+padding: 20px;
+}
