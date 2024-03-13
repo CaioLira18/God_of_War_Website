@@ -136,3 +136,72 @@ font-family: "ChaletComprime";
 font-size: 40px;
 padding: 20px;
 }
+
+.icones{
+    list-style: none; /* Remover marcadores de lista */
+    padding: 0; /* Remover padding padrão */
+    text-align: center;
+    margin-top: 70px;
+    position: relative;
+    z-index: 1;
+    
+}
+
+.icones li:last-child {
+    margin-right: 0; /* Remover a margem da última imagem */
+    
+}
+
+.icones ul {
+    display: inline-block;
+    
+}
+
+.icones ul li img{
+    width: 400px; 
+    height: auto; 
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.icones img{
+    margin: 10px;
+    margin-top: 50px;
+    transition: all 1s ease-in-out;
+}
+
+.icones ul li img:hover{
+    width: 500px;   
+}
+
+.icones h1{
+    font-family: "ChaletComprime";
+    font-size: 45px;
+    letter-spacing: 2px;
+}
+
+.personagens {
+    display: flex; /* Define o layout como flexível */
+    align-items: center; /* Alinha os itens verticalmente */
+}
+
+.personagens img {
+    width: 800px; /* Ajusta a largura da imagem conforme necessário */
+    height: auto; /* Mantém a proporção da imagem */
+    margin-right: 10px; /* Adiciona margem à direita para separar a imagem do texto */
+}
+
+.personagens .texto{
+    width: 600px;
+}
+.personagens h1 {
+   font-size: 80px;
+  text-align: center;
+}
+
+.personagens h2{
+    font-family: "ChaletComprime";
+    font-size: 30px;
+    text-align: center;
+}
