@@ -29,6 +29,8 @@ document.addEventListener("DOMContentLoaded", function() {
 });
 
 
+
+
 // Espera até que o conteúdo da página seja carregado
 document.addEventListener("DOMContentLoaded", function() {
     // Seleciona todas as divs que você deseja animar
